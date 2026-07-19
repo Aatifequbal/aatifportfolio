@@ -1,0 +1,163 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aatif Equbal · Full-stack Developer</title>
+    <!-- Font Awesome (free icons) -->
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <!-- ===== NAVBAR ===== -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="logo">Aatif Equbal</div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger" aria-label="menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="home">
+        <div class="container hero-content">
+            <div class="profile-img-wrapper">
+                <div class="profile-img">
+                    <img src="img.jpeg" alt="Aatif Equbal" />
+                </div>
+                <span class="badge-pro-absolute">PRO</span>
+            </div>
+            <p class="title-sub">Full-Stack Developer .</p>
+            <h1>Aatif Equbal</h1>
+            <div class="headline">
+                <span id="typewriter-text">Crafting digital experiences</span>
+                <span class="typewriter-cursor"></span>
+            </div>
+            <div class="cta-group">
+                <a href="https://github.com/Aatifequbal?tab=repositories" class="glow-btn"><i class="fas fa-rocket" style="margin-right:8px;"></i>View Projects</a>
+                <a href="mailto:atifequbal1916@gmail.com" class="glow-btn-outline"><i class="fas fa-paper-plane" style="margin-right:6px;"></i>Contact</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-grid">
+                <div class="about-bio">
+                    <p>"I am Aatif Equbal, a 3rd-year B.Tech student at Marwadi University. I don't just study engineering—I use it to solve problems. My strength is breaking down complex challenges and building practical, efficient solutions. I am looking to apply my technical mindset and adaptability to create real value for your team."</p>
+                    <p>Currently exploring AI-driven tools and edge computing. I believe in open-source, lifelong learning, and the power of great user experience.</p>
+                    <div class="stats-grid">
+                        <div class="stat-card"><div class="stat-number">10+</div><div class="stat-label">Projects</div></div>
+                        <div class="stat-card"><div class="stat-number">5</div><div class="stat-label">Happy Clients</div></div>
+                        <div class="stat-card"><div class="stat-number"></div><div class="stat-label">Years Experience</div></div>
+                    </div>
+                </div>
+                <div class="about-illustration">
+                    <i class="fas fa-code" style="font-size:4rem; color:#00d9ff55;"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== PROJECTS ===== -->
+    <section id="projects" style="background:#07070f;">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <!-- card 1 -->
+                <div class="project-card">
+                    <div class="project-icon">🧠</div>
+                    <h3>NeuroDash</h3>
+                    <p>AI-powered analytics dashboard for research teams. Real-time data streams and collaborative boards.</p>
+                    <div class="tech-tags"><span class="tech-tag">React</span><span class="tech-tag">D3</span><span class="tech-tag">Node</span></div>
+                </div>
+                <!-- card 2 -->
+                <div class="project-card">
+                    <div class="project-icon">📱</div>
+                    <h3>EcommerceWebsite</h3>
+                    <p></p>
+                    <div class="tech-tags"><span class="tech-tag"></span><span class="tech-tag"></span></div>
+                </div>
+                <!-- card 3 -->
+                <div class="project-card">
+                    <div class="project-icon">⚡</div>
+                    <h3>EdgeCMS</h3>
+                    <p>Headless CMS for edge deployment. Blazing fast API with GraphQL and serverless functions.</p>
+                    <div class="tech-tags"><span class="tech-tag">GraphQL</span><span class="tech-tag">Next.js</span><span class="tech-tag">Vercel</span></div>
+                </div>
+                <!-- card 4 -->
+                <div class="project-card">
+                    <div class="project-icon">🎮</div>
+                    <h3>Pixelforge</h3>
+                    <p>Collaborative pixel art editor with live multiplayer and NFT export.</p>
+                    <div class="tech-tags"><span class="tech-tag">WebSocket</span><span class="tech-tag">Canvas</span><span class="tech-tag">Vue</span></div>
+                </div>
+                <!-- card 5 -->
+                <div class="project-card">
+                    <div class="project-icon">🤖</div>
+                    <h3>AutoBot</h3>
+                    <p>Telegram bot for automated workflows, with natural language processing and custom integrations.</p>
+                    <div class="tech-tags"><span class="tech-tag">Python</span><span class="tech-tag">NLP</span><span class="tech-tag">Docker</span></div>
+                </div>
+                <!-- card 6 -->
+                <div class="project-card">
+                    <div class="project-icon">🌐</div>
+                    <h3>Portfolio Pro</h3>
+                    <p>This very portfolio — built with pure HTML/CSS/JS, neon accents, and glassmorphism.</p>
+                    <div class="tech-tags"><span class="tech-tag">HTML5</span><span class="tech-tag">CSS3</span><span class="tech-tag">JS</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SKILLS ===== -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2 class="section-title">Skills & Expertise</h2>
+            <div class="skills-grid">
+                <div class="skill-box"><h4>Frontend</h4><p>Html, Css, javaScript, React</p></div>
+                <div class="skill-box"><h4>Backend</h4><p>Node, Mongodb</p></div>
+                <div class="skill-box"><h4>Design</h4><p>Figma,</p></div>
+                <div class="skill-box"><h4>DSA</h4><p></p></div>
+                <!-- <div class="skill-box"><h4>Mobile</h4><p>React Native, Flutter</p></div> -->
+                <div class="skill-box"><h4>Tools</h4><p>Git, VSCode, Postman </p></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Let's Connect</h2>
+            <p style="color:#aaa; max-width:500px; margin:0 auto 1.5rem;">Have a project in mind or just want to say hi? Reach out anytime.</p>
+            <div class="contact-links">
+                <a href="mailto:atifequbal1916@gmail.com" class="contact-link"><i class="fas fa-envelope"></i> Email</a>
+                <a href="https://www.linkedin.com/in/aatif-equbal-a32476421/" class="contact-link"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
+                <a href="https://github.com/Aatifequbal?tab=repositories" class="contact-link"><i class="fab fa-github"></i> GitHub</a>
+                <a href="#" class="contact-link"><i class="fab fa-twitter"></i> Twitter</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Aatif Equbal. Crafted with <span style="color:#ff006e;">❤</span> and neon.</p>
+        </div>
+    </footer>
+
+    <!-- Main JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
